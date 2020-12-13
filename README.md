@@ -10,4 +10,3 @@ A digital resume/portfolio thing built by me, for me! Partially inspired by my d
 - Find appropriate digital resume host
 - Make particles background responsive
 - Clean up code & fix inconsistencies
-# digital-portfolio
