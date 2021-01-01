@@ -3,14 +3,14 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar,faHandsHelping} from '@fortawesome/free-solid-svg-icons';
+import { faStar} from '@fortawesome/free-solid-svg-icons';
 
 
 function TimelineComponent() {
   const starIcon = <FontAwesomeIcon icon={faStar} />
-  const volIcon = <FontAwesomeIcon id='vol-icon' icon={faHandsHelping} color="#083f49" />
-  const hokIcon = <i id='work-icon' className='icon-hok' />
-  const cuIcon = <i id='work-icon' className='icon-cu' />
+  //const volIcon = <FontAwesomeIcon id='vol-icon' icon={faHandsHelping} color="#083f49" />
+  //const hokIcon = <i id='work-icon' className='icon-hok' />
+  //const cuIcon = <i id='work-icon' className='icon-cu' />
 
 
 

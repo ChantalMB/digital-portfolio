@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Particle from "./components/particles";
 import Header from "./components/header";
 import Timeline from "./components/timeline";

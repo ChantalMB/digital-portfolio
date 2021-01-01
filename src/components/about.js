@@ -45,7 +45,7 @@ function About() {
       </div>
 
         <div class='photo-col'>
-            <img className="link-avatar" src="/op2.png"></img>
+            <img className="link-avatar" src="/op2.png" alt=""></img>
             <div className="link-tags">
                <div className="link-tag"><span className="underline--github"><a href="https://github.com/ChantalMB">{gitIcon}</a></span></div>
                <div className="link-tag"><span className="underline--resume"><a href="https://drive.google.com/file/d/1aChOeqM4TxwNNZQ1bnrvi2Er9wuUeMX9/view?usp=sharing">{resIcon}</a></span></div>
