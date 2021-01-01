@@ -17,7 +17,7 @@
 
 p {
   font-family: 'Libre Baskerville';
-  font-size: 11px;
+  font-size: 2px;
 }
 
 #work-icon {
@@ -81,12 +81,8 @@ p {
     flex-direction: row;
 }
 
-.company-logo{
-    width:20em;
-}
-
-.company-logo2{
-    width:17em;
+.job-desc {
+    font-size: 3px !important;
 }
 
 @media only screen and (min-width: 769px) {

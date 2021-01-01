@@ -9,11 +9,6 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 
-// Projects:
-// - RR
-// - Blog
-// - Final for DD (ongoing)
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -46,16 +41,15 @@ function Projects() {
               'font-weight': '500',
               'font-size': '23px'}}
               >
-                Lizard
+                History, Digitized.
               </Typography>
               <Typography variant="body2" style={{color: "#2c5056", 'margin-left': '0.25em'}} component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
+                A website built to document my journey in digital humanities through weekly blog posts. Features a number of both completed and WIP digital projects. 
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" style={{color: "#071e22"}} >
+            <Button size="small" style={{color: "#071e22"}} href="https://github.com/ChantalMB/histdigi-site">
               Learn More
             </Button>
           </CardActions>
@@ -80,16 +74,15 @@ function Projects() {
               'font-weight': '500',
               'font-size': '23px'}}
               >
-                Lizard
+                Readable Ravelry
               </Typography>
               <Typography variant="body2" style={{color: "#2c5056", 'margin-left': '0.25em'}} component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
+              Following a design update that left many users unable to use <a href="https://www.ravelry.com/">Ravelry</a>, I made this browser extension to make Ravelry readable for those sensitive to light/brightness.             
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" style={{color: "#071e22"}} >
+            <Button size="small" style={{color: "#071e22"}} href= "https://github.com/ChantalMB/readable-ravelry">
               Learn More
             </Button>
           </CardActions>
@@ -114,16 +107,15 @@ function Projects() {
               'font-weight': '500',
               'font-size': '23px'}}
               >
-                Lizard
+                Fate of the Fair
               </Typography>
               <Typography variant="body2" style={{color: "#2c5056", 'margin-left': '0.25em'}} component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
+                For seminar on witchcraft in the Early Modern period; utilizes the <a href="http://witches.shca.ed.ac.uk/">SSW Database</a> to analyze the relationship between belief in fairies and the developments of witchcraft. 
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" style={{color: "#071e22"}} >
+            <Button size="small" style={{color: "#071e22"}} href="https://github.com/ChantalMB/ssw-site" >
               Learn More
             </Button>
           </CardActions>

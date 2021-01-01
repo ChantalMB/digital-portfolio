@@ -20,6 +20,8 @@
     "react-dom": "^16.13.1",
     "react-native-vector-icons": "^7.1.0",
     "react-particles-js": "^3.2.1",
+    "react-pdf": "^5.1.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-simple-image-slider": "^1.0.4",
     "react-timeline-scribble": "^1.0.14",

@@ -36,7 +36,7 @@
   display: inline-flex;
   height: 40px;
   width: 111px;
-  border: 2px solid #BFC0C0;
+  border: 5px solid #BFC0C0;
   margin: -33px 20px 27px 23px;
   color: #BFC0C0;
   text-transform: uppercase;
@@ -99,14 +99,10 @@
     font-family: 'Spartan';
     font-weight: 900;
     font-size: 2.25rem;
-    //font-weight: 700;
     margin-top: 0.2em;
-    //margin-bottom: 0.05em;
     font-size: 93px;
-    //line-height: 60px;
     font-weight: 700;
     line-height: 0.9em;
-    //color: #424242;
     white-space: nowrap;
     display: flex;
     justify-content: center;
@@ -132,7 +128,7 @@
     font-size: 2.25rem;
     margin-top: 0.17em;
     margin-bottom: 0.5em;
-    margin-left: 0.05em;
+    margin-left: 0em;
     font-size: 30px;
     white-space: nowrap
 }

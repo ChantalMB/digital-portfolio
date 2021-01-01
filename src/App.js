@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Particle from "./components/particles";
 import Header from "./components/header";
 import Timeline from "./components/timeline";
@@ -7,9 +7,9 @@ import Footer from "./components/footer";
 import About from "./components/about";
 import "./fontello-7c04b8ba/css/portfolio.css"
 
-
 function App() {
   return (
+    <>
     <main className="wrapper">
       <section className="bg">
         <Particle/>
@@ -30,13 +30,14 @@ function App() {
         <Timeline/>
         <br></br>
         <br></br>
-    </section>
+      </section>
 
       <section className="section-footer bg">
         <Footer/>
       </section>
+    </main>
 
-  </main>
+    </>
   );
 }
 

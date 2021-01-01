@@ -21,22 +21,25 @@ function TimelineComponent() {
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
       contentStyle={{ background: '#96ccbf', color: '#071e22' }}
-      contentArrowStyle={{ borderRight: '7px solid  #96ccbf' }}
+      contentArrowStyle={{ borderRight: '7px solid #96ccbf' }}
       date="2011 - present"
       iconStyle={{ background: '#96ccbf', color: '#071e22', 'font-size': '42.7px' }}
-      icon={cuIcon}
+      // icon={cuIcon}
     >
 
       <div class="skill-set">
-          <div role="button" class="skills-tag-work">Skill</div>
-          <div role="button" class="skills-tag-work">Skill</div>
-          <div role="button" class="skills-tag-work">Skill</div>
+          <div role="button" class="skills-tag-work">Python</div>
+          <div role="button" class="skills-tag-work">Juypter Notebook</div>
+          <div role="button" class="skills-tag-work">R</div>
+          <div role="button" class="skills-tag-work">Git</div>
+          <div role="button" class="skills-tag-work">Hugo</div>
+          
       </div>
 
-      <h3 className="vertical-timeline-element-title">SaPP</h3>
-      <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+      <h3 className="vertical-timeline-element-title">Student Partner</h3>
+      <h4 className="vertical-timeline-element-subtitle">Carleton University</h4>
       <p>
-        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      Students As Partners Program. Collaborated with Dr. Shawn Graham in developing the Winter 2021 course HIST4916A: Digital History + Museums.
       </p>
     </VerticalTimelineElement>
 
@@ -46,19 +49,19 @@ function TimelineComponent() {
       contentArrowStyle={{ borderRight: '7px solid  #FF994F' }}
       date="2011 - present"
       iconStyle={{ background: '#FF994F', color: '#071e22', 'font-size': '21.5px' }}
-      icon={volIcon}
+      // icon={volIcon}
     >
 
       <div class="skill-set">
-          <div role="button" class="skills-tag-vol">Skill</div>
-          <div role="button" class="skills-tag-vol">Skill</div>
-          <div role="button" class="skills-tag-vol">Skill</div>
+          <div role="button" class="skills-tag-vol">Adobe Suite</div>
+          <div role="button" class="skills-tag-vol">Canva</div>
+          <div role="button" class="skills-tag-vol">Hootsuite</div>
       </div>
 
-      <h3 className="vertical-timeline-element-title">Comms</h3>
-      <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+      <h3 className="vertical-timeline-element-title">Communications Officer</h3>
+      <h4 className="vertical-timeline-element-subtitle">Carleton Computer Science Society</h4>
       <p>
-        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      Responsible for designing social media content and promotional materials. Helping to maintain the CCSS social media accounts and replying to student inquiries. Moderating the CCSS virtual Discord community to ensure appropriate conduct and encourage inclusion and participation.
       </p>
     </VerticalTimelineElement>
 
@@ -68,19 +71,20 @@ function TimelineComponent() {
       contentArrowStyle={{ borderRight: '7px solid  #96ccbf' }}
       date="2011 - present"
       iconStyle={{ background: '#96ccbf', color: '#071e22', 'font-size': '42.7px' }}
-      icon={cuIcon}
+      // icon={cuIcon}
     >
 
       <div class="skill-set">
-          <div role="button" class="skills-tag-work">Skill</div>
-          <div role="button" class="skills-tag-work">Skill</div>
-          <div role="button" class="skills-tag-work">Skill</div>
+          <div role="button" class="skills-tag-work">Javascript</div>
+          <div role="button" class="skills-tag-work">Markdown</div>
+          <div role="button" class="skills-tag-work">HTML</div>
       </div>
 
-      <h3 className="vertical-timeline-element-title">GGG</h3>
-      <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+      <h3 className="vertical-timeline-element-title">Undergraduate Research Fellow</h3>
+      <h4 className="vertical-timeline-element-subtitle">Carleton University</h4>
       <p>
-        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      George Garth Graham Undergraduate Digital History Research Fellowship. Explored the history of urbanism in ancient Rome through the lense of city-building
+      games.
       </p>
     </VerticalTimelineElement>
 
@@ -90,19 +94,19 @@ function TimelineComponent() {
       contentArrowStyle={{ borderRight: '7px solid  #FF994F' }}
       date="2011 - present"
       iconStyle={{ background: '#FF994F', color: '#071e22', 'font-size': '21.5px' }}
-      icon={volIcon}
+      // icon={volIcon}
     >
 
       <div class="skill-set">
-          <div role="button" class="skills-tag-vol">Skill</div>
-          <div role="button" class="skills-tag-vol">Skill</div>
-          <div role="button" class="skills-tag-vol">Skill</div>
+          <div role="button" class="skills-tag-vol">Adobe Suite</div>
+          <div role="button" class="skills-tag-vol">Figma</div>
+          <div role="button" class="skills-tag-vol">Canva</div>
       </div>
 
-      <h3 className="vertical-timeline-element-title">Admin</h3>
-      <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+      <h3 className="vertical-timeline-element-title">Administrator</h3>
+      <h4 className="vertical-timeline-element-subtitle">Carleton Computer Science Society</h4>
       <p>
-        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      Managed the CCSS (Carleton Computer Science Society) social media and replied to inquiries across all platforms. Collaborated with other members on the Board of Directors in the organization and execution of events.
       </p>
     </VerticalTimelineElement>
 
@@ -112,18 +116,19 @@ function TimelineComponent() {
       contentArrowStyle={{ borderRight: '7px solid  #96ccbf' }}
       date="2011 - present"
       iconStyle={{ background: '#96ccbf', color: '#071e22', 'font-size': '42.7px' }}
-      icon={hokIcon}
+      // icon={hokIcon}
     >
         <div class="skill-set">
-            <div role="button" class="skills-tag-work">Skill</div>
-            <div role="button" class="skills-tag-work">Skill</div>
-            <div role="button" class="skills-tag-work">Skill</div>
+            <div role="button" class="skills-tag-work">Python</div>
+            <div role="button" class="skills-tag-work">Bluebeam Revu</div>
+            <div role="button" class="skills-tag-work">Excel</div>
         </div>
 
-        <h3 className="vertical-timeline-element-title">HOK</h3>
-        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+        <h3 className="vertical-timeline-element-title">Summer Intern (Heritage Team)</h3>
+        <h4 className="vertical-timeline-element-subtitle">HOK</h4>
         <p>
-          Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+        Centre Block Rehabilitation Project. Gathered and recorded information on heritage and non-heritage assets being removed
+        from the Centre Block, then entered aforementioned heritage assets into a database for long-term tracking.
         </p>
 
     </VerticalTimelineElement>
