@@ -22,7 +22,7 @@ function TimelineComponent() {
       className="vertical-timeline-element--work"
       contentStyle={{ background: '#96ccbf', color: '#071e22' }}
       contentArrowStyle={{ borderRight: '7px solid #96ccbf' }}
-      date="2011 - present"
+      date="Fall 2020 - present"
       iconStyle={{ background: '#96ccbf', color: '#071e22', 'font-size': '42.7px' }}
       // icon={cuIcon}
     >
@@ -47,7 +47,7 @@ function TimelineComponent() {
       className="vertical-timeline-element--work"
       contentStyle={{ background: '#FF994F', color: '#071e22' }}
       contentArrowStyle={{ borderRight: '7px solid  #FF994F' }}
-      date="2011 - present"
+      date="Fall 2020 - present"
       iconStyle={{ background: '#FF994F', color: '#071e22', 'font-size': '21.5px' }}
       // icon={volIcon}
     >
@@ -69,7 +69,7 @@ function TimelineComponent() {
       className="vertical-timeline-element--work"
       contentStyle={{ background: '#96ccbf', color: '#071e22' }}
       contentArrowStyle={{ borderRight: '7px solid  #96ccbf' }}
-      date="2011 - present"
+      date="Fall 2019 - Winter 2020"
       iconStyle={{ background: '#96ccbf', color: '#071e22', 'font-size': '42.7px' }}
       // icon={cuIcon}
     >
@@ -92,7 +92,7 @@ function TimelineComponent() {
       className="vertical-timeline-element--work"
       contentStyle={{ background: '#FF994F', color: '#071e22' }}
       contentArrowStyle={{ borderRight: '7px solid  #FF994F' }}
-      date="2011 - present"
+      date="Fall 2019 - Winter 2020"
       iconStyle={{ background: '#FF994F', color: '#071e22', 'font-size': '21.5px' }}
       // icon={volIcon}
     >
@@ -114,7 +114,7 @@ function TimelineComponent() {
       className="vertical-timeline-element--work"
       contentStyle={{ background: '#96ccbf', color: '#071e22' }}
       contentArrowStyle={{ borderRight: '7px solid  #96ccbf' }}
-      date="2011 - present"
+      date="Summer 2019"
       iconStyle={{ background: '#96ccbf', color: '#071e22', 'font-size': '42.7px' }}
       // icon={hokIcon}
     >
