@@ -15,7 +15,7 @@ function Footer() {
                     <a href="https://github.com/ChantalMB">{gitIcon}</a>
                 </div>
                 <div className="footer-link hvr-float">
-                    <a href="mailto:chantalbrousseau@rogers.com">{mailIcon}</a>
+                    <a href="mailto:chantal.brousseau@carleton.ca">{mailIcon}</a>
                 </div>
                 <div className="footer-link hvr-float">
                     <a href="https://www.linkedin.com/in/chantal-brousseau/">{linkedIcon}</a>

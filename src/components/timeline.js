@@ -22,7 +22,32 @@ function TimelineComponent() {
       className="vertical-timeline-element--work"
       contentStyle={{ background: '#96ccbf', color: '#071e22' }}
       contentArrowStyle={{ borderRight: '7px solid #96ccbf' }}
-      date="Fall 2020 - present"
+      date="Feb 2021 - Present"
+      iconStyle={{ background: '#96ccbf', color: '#071e22', 'font-size': '42.7px' }}
+      // icon={cuIcon}
+    >
+
+      <div class="skill-set">
+          <div role="button" class="skills-tag-work">Python</div>
+          <div role="button" class="skills-tag-work">Juypter Notebook</div>
+          <div role="button" class="skills-tag-work">Twine</div>
+          <div role="button" class="skills-tag-work">Git</div>
+          <div role="button" class="skills-tag-work">R</div>
+          
+      </div>
+
+      <h3 className="vertical-timeline-element-title">Digital Humanities Research Support Services</h3>
+      <h4 className="vertical-timeline-element-subtitle">MacOdrum Library</h4>
+      <p>
+      Working with Interdisciplinary Studies librarian Martha Attridge Bufton to develop a series of introductory workshops to the digital humanities and associated technical foundations for Carleton University's MacOdrum Library. 
+      </p>
+    </VerticalTimelineElement>
+
+    <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      contentStyle={{ background: '#96ccbf', color: '#071e22' }}
+      contentArrowStyle={{ borderRight: '7px solid #96ccbf' }}
+      date="Sept 2020 - Jan 2021"
       iconStyle={{ background: '#96ccbf', color: '#071e22', 'font-size': '42.7px' }}
       // icon={cuIcon}
     >
@@ -39,7 +64,7 @@ function TimelineComponent() {
       <h3 className="vertical-timeline-element-title">Student Partner</h3>
       <h4 className="vertical-timeline-element-subtitle">Carleton University</h4>
       <p>
-      Students As Partners Program. Collaborated with Dr. Shawn Graham in developing the Winter 2021 course HIST4916A: Digital History + Museums.
+      Students As Partners Program. Collaborated with Dr. Shawn Graham in developing the Winter 2021 course <a href="https://dhmuse.netlify.app/">HIST4916A: Digital History + Museums</a>
       </p>
     </VerticalTimelineElement>
 

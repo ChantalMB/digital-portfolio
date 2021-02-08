@@ -35,7 +35,7 @@ function About() {
               <a href="https://www.linkedin.com/in/chantal-brousseau/">{linkedIcon}</a>
           </div>
           <div className="footer-link hvr-float">
-              <a href="mailto:chantalbrousseau@rogers.com">{mailIcon}</a>
+              <a href="mailto:chantal.brousseau@carleton.ca">{mailIcon}</a>
           </div>
           <div className="footer-link hvr-float">
           <a href="#about">{resIcon}</a>
@@ -50,7 +50,7 @@ function About() {
                <div className="link-tag"><span className="underline--github"><a href="https://github.com/ChantalMB">{gitIcon}</a></span></div>
                <div className="link-tag"><span className="underline--resume"><a href="https://drive.google.com/file/d/1aChOeqM4TxwNNZQ1bnrvi2Er9wuUeMX9/view?usp=sharing">{resIcon}</a></span></div>
                <div className="link-tag"><span className="underline--linkedin"><a href="https://www.linkedin.com/in/chantal-brousseau/">{linkedIcon}</a></span></div>
-               <div className="link-tag"><span className="underline--email"><a href="mailto:chantalbrousseau@rogers.com">{mailIcon}</a></span></div>
+               <div className="link-tag"><span className="underline--email"><a href="mailto:chantal.brousseau@carleton.ca">{mailIcon}</a></span></div>
             </div>
         </div>
     </div>
