@@ -23,25 +23,11 @@ function About() {
         <div className= "desc">
             <p class="has-line-data" data-line-start="0" data-line-end="1">My name is Chantal, and presently I’m a 4th year undergraduate at Carleton University studying history with a minor in computer science. Unsurprisingly, with that combination, my primary area of interest is <b>digital history &amp; humanities</b>, with a current focus on social history in Early Modern Europe.</p>
             <p class="has-line-data" data-line-start="2" data-line-end="3">I’m also interested in the more practical applications of these concepts, exploring the ways that cultural artefacts are being digitally preserved, and how this information can be made easily accessible to the public or aide in community building and reparations.</p>
-            <p class="has-line-data" data-line-start="4" data-line-end="5">For these reasons, I am <b>currently applying </b> to graduate programs in <b>library &amp; information science</b> in hopes of starting my master’s degree beginning in Fall 2021.</p>
+            <p class="has-line-data" data-line-start="4" data-line-end="5">With these beliefs in mind and a desire to inquire further into the interactions between the humanities and technology, I will be starting a combined master's degree in <b>History & Data Science</b> as of Fall 2021 at Carleton University, supervised by <b><u><a href="https://shawngraham.github.io/">Dr. Shawn Graham.</a></u></b></p>
+
+            {/* <p class="has-line-data" data-line-start="4" data-line-end="5">For these reasons, I am <b>currently applying </b> to graduate programs in <b>library &amp; information science</b> in hopes of starting my master’s degree beginning in Fall 2021.</p> */}
         </div>
 
-      <div className="link-mobile">
-      <div className="footer-links">
-          <div className="footer-link hvr-float">
-              <a href="https://github.com/ChantalMB">{gitIcon}</a>
-          </div>
-          <div className="footer-link hvr-float">
-              <a href="https://www.linkedin.com/in/chantal-brousseau/">{linkedIcon}</a>
-          </div>
-          <div className="footer-link hvr-float">
-              <a href="mailto:chantal.brousseau@carleton.ca">{mailIcon}</a>
-          </div>
-          <div className="footer-link hvr-float">
-          <a href="#about">{resIcon}</a>
-          </div>
-      </div>
-      </div>
       </div>
 
         <div class='photo-col'>

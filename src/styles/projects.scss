@@ -1,24 +1,24 @@
-.card-container{
+.card-container {
   padding: 0em 2em 0em 2em;
   display: flex;
   justify-content: center;
 }
 
-.card-container li{
+.card-container li {
     list-style-type:none;
     padding: 0em 2em 7em 2em;
     float:left;
     text-align:left;
 }
 
-.card{
+.card {
     transition: 0.2s;
     overflow:hidden;
     width: 7em;
     word-wrap:break-word;
 }
 
-.card-image{
+.card-image {
     box-shadow:1 1 #000;
     transition:.3s;
     background-color:#C33;
@@ -26,16 +26,27 @@
     text-align:center;
 }
 
-.card-image:hover{
+.card-image:hover {
     transform:scale(1.25,1.25);
     transform-origin: 50% 50%;
     box-shadow:2 2 #0f0;
 }
-.card-theme{
+.card-theme {
     padding: .1em .1em .1em .1em;
     background-color:#999;
     word-wrap: break-word;
 }
-.card:hover{
+.card:hover {
 box-shadow: 0 5px 5px 0 rgba(0,0,33,1);
+}
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    display: block;
+  }
+
+  .card-container li{
+    padding: 0em 2em 2em 2em;
+  }
+
 }
