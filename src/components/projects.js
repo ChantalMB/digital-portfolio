@@ -44,7 +44,7 @@ function Projects() {
                 History, Digitized.
               </Typography>
               <Typography variant="body2" style={{color: "#2c5056", 'margin-left': '0.25em'}} component="p">
-                A website built to document my journey in digital humanities through weekly blog posts. Features a number of both completed and WIP digital projects. 
+                Winner of <a href="http://dhawards.org/dhawards2020/results/">2020 Digital Humanities Awards</a> under "Best Exploration of DH Failure/Limitations". A website built to document my journey in digital humanities through weekly blog posts.
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -77,7 +77,7 @@ function Projects() {
                 Readable Ravelry
               </Typography>
               <Typography variant="body2" style={{color: "#2c5056", 'margin-left': '0.25em'}} component="p">
-              Following a design update that left many users unable to use <a href="https://www.ravelry.com/">Ravelry</a>, I made this browser extension to make Ravelry readable for those sensitive to light/brightness.             
+              Following a design update that left many users unable to use <a href="https://www.ravelry.com/">Ravelry</a>, I made this browser extension to make Ravelry readable for those sensitive to light/brightness.
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -110,7 +110,7 @@ function Projects() {
                 Fate of the Fair
               </Typography>
               <Typography variant="body2" style={{color: "#2c5056", 'margin-left': '0.25em'}} component="p">
-                For seminar on witchcraft in the Early Modern period; utilizes the <a href="http://witches.shca.ed.ac.uk/">SSW Database</a> to analyze the relationship between belief in fairies and the developments of witchcraft. 
+                For seminar on witchcraft in the Early Modern period; utilizes the <a href="http://witches.shca.ed.ac.uk/">SSW Database</a> to analyze the relationship between belief in fairies and the developments of witchcraft.
               </Typography>
             </CardContent>
           </CardActionArea>

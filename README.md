@@ -5,8 +5,8 @@ A digital resume/portfolio thing built by me, for me! Partially inspired by my d
 <br>
 
 **TO DO:**
-- Figure out how to align icons in timeline element bubble
+- ~Figure out how to align icons in timeline element bubble~
 - Match outgoing icons to site colour scheme
 - Find appropriate digital resume host
-- Make particles background responsive
+- ~Make particles background responsive~
 - Clean up code & fix inconsistencies
