@@ -2,14 +2,16 @@
   text-decoration: underline;
 }
 
-
+hr {
+  margin: 0;
+}
 
 .link {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    height:fit-content;
-    width:75%;
+    height: fit-content;
+    width: 75%;
     color: #616161;
     line-height: 1.2;
     position: relative;
@@ -25,7 +27,7 @@
 }
 
 .link-header {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 0.5em;
     border-bottom: 2px solid #82828254;
     color: #083f49;
@@ -46,18 +48,19 @@
     flex-direction: column;
     font-family: 'Libre Baskerville';
     width: 60%;
-    height:100%;
+    height: 100%;
+    margin-right: 25px;
 }
 
 @media only screen and (max-width: 1277px) {
     .link{
-        width:85%;
+        width: 85%;
     }
 }
 
 @media only screen and (max-width: 1080px) {
     .link{
-        width:100%;
+        width: 100%;
         flex-direction: column-reverse;
     }
 
@@ -66,6 +69,7 @@
     }
 
     .link-text {
+      margin-right: 0;
       margin-bottom: 19px;
       text-align: center;
     }
@@ -75,21 +79,16 @@
   display:block;
 }
 
-.desc {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
 .desc p {
-  // font-size: 13.5px;
-  line-height: 25px;
+  font-size: 12px;
+  line-height: 21px;
   text-indent: 25px;
 }
 
 
 @media only screen and (max-width: 600px) {
     .link {
-        width:100%;
+        width: 100%;
         flex-direction: column-reverse;
     }
 
@@ -98,8 +97,9 @@
     }
 
     .link-text {
-      width:90%;
+      width: 90%;
       margin-bottom: 9px;
+      margin-right: 0;
     }
 }
 

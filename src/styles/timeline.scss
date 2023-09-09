@@ -1,4 +1,4 @@
-.timeline{
+.timeline {
     width:80%;
     margin:-1em;
     display:flex;
@@ -13,6 +13,10 @@
 
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
   box-shadow: 0 0 0 4px #083f49, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline-element-content p {
+    font-size: 0.75rem;
 }
 
 p {
@@ -75,7 +79,7 @@ p {
     margin-bottom: 5px;
 }
 
-.experience-sections{
+.experience-sections {
     display:flex;
     flex-direction: row;
 }
@@ -123,7 +127,7 @@ p {
 
 
 @media only screen and (max-width: 500px) {
-    .timeline{
+    .timeline {
         width:100%;
     }
 }

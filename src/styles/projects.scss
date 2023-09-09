@@ -33,30 +33,12 @@
 /********* Fonts Face CSS End **********/
 
 /******* Common Element CSS Start ******/
-* {
-  margin: 0px;
-  padding: 0px;
-}
-body {
-  font-family: "Spartan";
-  font-size: 16px;
-}
-.clear {
-  clear: both;
-}
-img {
-  max-width: 100%;
-  border: 0px;
-}
-ul,
-ol {
-  list-style: none;
-}
 
-h3 {
+.item-desc h3 {
+  font-family: "Spartan";
   margin: 0 0 10px;
-  font-size: 23px;
-  line-height: 36px;
+  font-size: 17.25px;
+  line-height: 27px;
 }
 
 /******* Common Element CSS End *********/
@@ -71,8 +53,8 @@ h3 {
 
 .item-content .item {
     margin: 0 15px 60px;
-    height: 60vh;
-    width: 250px;
+    height: 50vh;
+    width: 185px;
     display: flex;
     display: -webkit-flex;
     align-items: flex-end;
@@ -88,7 +70,7 @@ h3 {
 }
 
 .item-content .item.active {
-  width: 500px;
+  width: 375px;
 }
 
 .item-content .item:after {
@@ -102,6 +84,7 @@ h3 {
   background-image: linear-gradient(rgba(5, 47, 54, 0), rgba(5, 47, 54, 1));
 }
 .item-content .item-desc {
+  font-size: 12px;
   padding: 0 24px 12px;
   color: #fff;
   position: relative;
@@ -138,10 +121,10 @@ h3 {
 /***** responsive css Start ******/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  h3 {
+  .item-desc h3 {
     margin: 0 0 8px;
     font-size: 21px;
-    line-height: 32px;
+    line-height: 23px;
   }
 
   /* -------- Landing page ------- */
@@ -161,10 +144,10 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  h3 {
+  .item-desc h3 {
     margin: 0 0 8px;
     font-size: 19px;
-    line-height: 32px;
+    line-height: 23px;
   }
   /* -------- Landing page ------- */
  
@@ -187,10 +170,10 @@ h3 {
     font-size: 14px;
   }
 
-  h3 {
+  .item-desc h3 {
     margin: 0 0 8px;
     font-size: 19px;
-    line-height: 24px;
+    line-height: 23px;
   }
 
   /* -------- Landing page ------- */
@@ -214,6 +197,7 @@ h3 {
 
 .item-desc a {
   background-color: rgba(255, 255, 255, 0.3);
+  font-family: 'Spartan';
   color: white;
   padding: 7px 10px;
   margin-top: 15px;
