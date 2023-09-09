@@ -1,0 +1,49 @@
+.page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-header {
+    height: 6.5vh;
+    background-image: url('/grid.png');
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cv-header-content {
+    color: #fff0e3;
+    margin: 15px;
+    font-size: 21px;
+
+}
+
+.cv-header-content span {
+    color: #fff0e3;
+    margin: 15px;
+}
+
+.cv-container {
+    display: block;
+    height: 93vh;
+}
+
+.pdfobject-container {
+    height: 100%;
+}
+
+#pdfobject {
+    font-family: 'Libre Baskerville', serif;
+    color: #fff0e3;
+}
+
+#pdfobject p {
+    margin: 25px;
+
+}
+
+#pdfobject a {
+    color: #fff0e3;
+    text-decoration: underline;
+}

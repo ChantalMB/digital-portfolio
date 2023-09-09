@@ -1,0 +1,265 @@
+.carousel {
+    display: flex;
+    gap: .7em;
+    padding: 8px; 
+    width: 100vw;
+    
+    /* adds scrolling for the element: */
+    overflow-x: scroll;
+    /* removes the horizontal scrollbar: */
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff47;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+
+  /* Chrome, Edge, and Safari */
+  .carousel::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  .carousel::-webkit-scrollbar-track {
+    background: #ffffff47;
+  }
+
+  .carousel::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+  }
+
+/******* Fonts Import Start **********/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/********* Fonts Face CSS End **********/
+
+/******* Common Element CSS Start ******/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Spartan";
+  font-size: 16px;
+}
+.clear {
+  clear: both;
+}
+img {
+  max-width: 100%;
+  border: 0px;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+h3 {
+  margin: 0 0 10px;
+  font-size: 23px;
+  line-height: 36px;
+}
+
+/******* Common Element CSS End *********/
+
+/******* Middle section CSS Start ******/
+/* -------- Landing page ------- */
+
+.item-content {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.item-content .item {
+    margin: 0 15px 60px;
+    height: 60vh;
+    width: 250px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    background: #343434 no-repeat center center / cover;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    background-color: white;
+}
+
+.item-content .item.active {
+  width: 500px;
+}
+
+.item-content .item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(rgba(5, 47, 54, 0), rgba(5, 47, 54, 1));
+}
+.item-content .item-desc {
+  padding: 0 24px 12px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transform: translateY(calc(100% - 79px));
+  -webkit-transform: translateY(calc(100% - 79px));
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+.item-content .item.active .item-desc {
+  transform: none;
+  -webkit-transform: none;
+}
+.item-content .item-desc p {
+  opacity: 0;
+  -webkit-transform: translateY(32px);
+  transform: translateY(32px);
+  transition: all 0.4s ease-in-out 0.2s;
+  -webkit-transition: all 0.4s ease-in-out 0.2s;
+}
+.item-content .item.active .item-desc p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.item-content .owl-theme.custom-carousel .owl-dots {
+  margin-top: -20px;
+  position: relative;
+  z-index: 5;
+}
+/******** Middle section CSS End *******/
+
+/***** responsive css Start ******/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  h3 {
+    margin: 0 0 8px;
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  /* -------- Landing page ------- */
+
+  .item-content .item {
+    margin: 0 12px 60px;
+    height: 60vh;
+    width: 250px;
+  }
+  .item-content .item.active {
+    width: 405px;
+  }
+  .item-content .item-desc {
+    transform: translateY(calc(100% - 73px));
+    -webkit-transform: translateY(calc(100% - 73px));
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h3 {
+    margin: 0 0 8px;
+    font-size: 19px;
+    line-height: 32px;
+  }
+  /* -------- Landing page ------- */
+ 
+  .item-content .item {
+    margin: 0 12px 60px;
+    height: 60vh;
+    width: 250px;
+  }
+  .item-content .item.active {
+    width: 375px;
+  }
+  .item-content .item-desc {
+    transform: translateY(calc(100% - 67px));
+    -webkit-transform: translateY(calc(100% - 67px));
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  h3 {
+    margin: 0 0 8px;
+    font-size: 19px;
+    line-height: 24px;
+  }
+
+  /* -------- Landing page ------- */
+
+  .item-content .item {
+    margin: 0 10px 40px;
+    height: 60vh;
+    width: 200px;
+  }
+  .item-content .item.active {
+    width: 350px;
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+  }
+  .item-content .item-desc {
+    // padding: 0 14px 5px;
+    transform: translateY(calc(100% - 55px));
+    -webkit-transform: translateY(calc(100% - 55px));
+  }
+}
+
+.item-desc a {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 7px 10px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.item-desc a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+// .item-content {
+    
+// }
+
+// .item {
+//     height: 60vh;
+//     width: 200px;
+//     display: flex;
+//     align-items: flex-end;
+//     background: #343434 no-repeat center center / cover;
+//     border-radius: 16px;
+//     overflow: hidden;
+//     position: relative;
+//     transition: width 0.5s ease;
+//     cursor: pointer;
+// }
+
+
+
+// .item.active {
+//     width: 500px;
+// }
+
+// .item-desc {
+//     color: antiquewhite;
+// }
+
+// .item-desc p {
+
+// }
+
+// h3 {
+//     margin: 0 0 10px;
+//     font-size: 28px;
+//     line-height: 36px;
+// }

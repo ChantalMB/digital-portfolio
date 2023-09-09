@@ -1,0 +1,129 @@
+.timeline{
+    width:80%;
+    margin:-1em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:fit-content;
+}
+
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #083f49 !important;
+}
+
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #083f49, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+p {
+  font-family: 'Libre Baskerville';
+}
+
+#work-icon {
+  color: #317162;
+}
+
+#vol-icon {
+  color: #cb5500;
+}
+
+.skill-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 17px;
+}
+
+.skills-tag-work {
+    color: #317162;
+    height: 32px;
+    cursor: default;
+    border: none;
+    display: inline-flex;
+    outline: none;
+    padding: 11px;
+    font-size: 0.8125rem;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 16px;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #a3e3d3;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.skills-tag-vol {
+    color: #cb5500;
+    height: 32px;
+    cursor: default;
+    border: none;
+    display: inline-flex;
+    outline: none;
+    padding: 11px;
+    font-size: 0.8125rem;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 16px;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #fcc49c;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.experience-sections{
+    display:flex;
+    flex-direction: row;
+}
+
+.job-desc {
+    font-size: 3px !important;
+}
+
+@media only screen and (min-width: 769px) {
+    .company-logo-inner{
+        display:none;
+    }
+
+    .company-logo-outer{
+        display:block;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .timeline{
+        width:90%;
+    }
+
+    .experience-sections{
+        flex-direction: column-reverse;
+    }
+
+    .company-logo{
+        width: 17em;
+        margin-bottom:1em !important;
+    }
+
+    .company-logo-inner{
+        display:block;
+    }
+
+    .company-logo-outer{
+        display:none;
+    }
+
+    .company-logo2{
+        width: 15em;
+        margin-bottom:1em !important;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .timeline{
+        width:100%;
+    }
+}
