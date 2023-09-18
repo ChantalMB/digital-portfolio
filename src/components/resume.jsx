@@ -20,7 +20,7 @@ function Resume() {
                 </div>
             </div>
             <div className="cv-container">
-                <PDFObject url="/chantalbrousseau-cv.pdf" />
+                <PDFObject url="/cv-chantalbrousseau.pdf" />
             </div>
         </div>
         
